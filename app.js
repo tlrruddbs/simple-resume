@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const yaml = require("js-yaml");
 const fs = require("fs");
-var Autolinker = require("autolinker");
+const Autolinker = require("autolinker");
 
 const app = express();
 const port = process.env.PORT || 3000;
