@@ -5,7 +5,7 @@ cover: "/resume-cover.png"
 name: 윤 우 식
 photo: "/profile-me.jpg"
 introduction:
-  - 안녕하세요. 소프트웨어 엔지니어 윤우식 입니다. 기술과 커뮤니케이션의 힘이 세상을 바꾼다고 믿습니다. 
+  - 안녕하세요. 소프트웨어 엔지니어 윤우식 입니다. 기술과 커뮤니케이션의 힘이 세상을 바꾼다고 믿습니다.
   - 편리한 세상으로 나아가기 위해 위해 고민하고 개발합니다.
 
 links:
@@ -24,7 +24,8 @@ links:
 
 skills:
   Application:
-    - Node.js (ES6)
+    - Node.js
+    - TypeScript
     - Python3
     - C#
     - MySQL
@@ -40,6 +41,7 @@ skills:
     - Amazon Route 53
   DevOps:
     - Visual Studio Code
+    - Sequel Pro
     - Visual Studio 2015
     - SQL Server Management Studio
     - Git
@@ -49,11 +51,37 @@ skills:
 
 careers:
   - company:
+    name: 크로키닷컴(지그재그)
+    role: Software Engineer
+    workPeriod:
+      start: "2019.02"
+      end: "now"
+    techStack:
+      Language:
+        - TypeScript
+        - Node.js
+        - Mithril.js
+        - React.js
+        - MySQL
+      System:
+        - Mac OS X
+        - Ubuntu
+      Tool:
+        - Visual Studio Code
+        - Sequel Pro
+        - Git
+        - Slack
+    projects:
+      - name: 지그재그 Backend 개발
+        period:
+          start: "2019.02"
+          end: "now"
+  - company:
     name: 이앤시스
     role: Software Engineer / 대리
     workPeriod:
-      start: '2016.07'
-      end: '2018.07'
+      start: "2016.07"
+      end: "2018.07"
     techStack:
       Language:
         - C#
@@ -72,9 +100,9 @@ careers:
     projects:
       - name: 더존 ERP 시스템 구축 개발
         period:
-          start: '2016.07'
-          end: '2018.07'
-        description: 개발팀에 속해 마니커, 국제자산신탁, 유진레이델, 참존 등 기업에 사용되는 ERP의 모듈과 부가적인 서비스 개발을 담당하였습니다. 
+          start: "2016.07"
+          end: "2018.07"
+        description: 개발팀에 속해 마니커, 국제자산신탁, 유진레이델, 참존 등 기업에 사용되는 ERP의 모듈과 부가적인 서비스 개발을 담당하였습니다.
         parts:
           - 더존 ERP iU Framework로 설계 컨설턴트, 기업 전산팀과의 협업으로 모듈 개발 진행.
           - ERP 시스템과 연동되는 Compact Framework 기반 PDA 시스템 단독 개발.
@@ -86,8 +114,8 @@ careers:
     name: 퓨쳐플랜
     role: Software Engineer / 대리
     workPeriod:
-      start: '2015.03'
-      end: '2016.03'
+      start: "2015.03"
+      end: "2016.03"
     techStack:
       Language:
         - C#
@@ -105,8 +133,8 @@ careers:
     projects:
       - name: 대학입시 컨설팅 서비스 마이그레이션
         period:
-          start: '2015.07'
-          end: '2016.03'
+          start: "2015.07"
+          end: "2016.03"
         description: <진로진학가이드 통>의 마이그레이션에 참가하여 개발하였습니다.
         parts:
           - 기존 Legacy 서비스를 wpf 기반으로 새롭게 마이그레이션.
@@ -115,8 +143,8 @@ careers:
           - DevExpress를 이용한 Report 기능 개발.
       - name: 대학입시 컨설팅 서비스 개발 및 운영
         period:
-          start: '2015.03'
-          end: '2016.03'
+          start: "2015.03"
+          end: "2016.03"
         description: <진로진학가이드 통>의 개발과 유지보수를 담당하였습니다.
         parts:
           - 500여개 학교 및 학원을 대상으로 한 대학입시 컨설팅 서비스 개발 및 운영.
@@ -128,8 +156,8 @@ experiences:
     name: Simple resume
     role: Development
     period:
-      start: '2018.12'
-      end: '2018.12'
+      start: "2018.12"
+      end: "2018.12"
     description:
       - "Demo link : http://resume.suitee.me/"
       - "Github : https://github.com/suitelab/simple-resume"
@@ -139,19 +167,19 @@ experiences:
     name: Lostark wait notifier
     role: Development
     period:
-      start: '2018.11'
-      end: '2018.11'
+      start: "2018.11"
+      end: "2018.11"
     description:
       - "Service link : https://pf.kakao.com/_dcPGj"
       - "Github : https://github.com/suitelab/lostark-wait-notifier"
-      - 약 20,000명의 사용자가 이용중인 Lostark wait notifier 는 게임<로스트아크>의 실시간 접속 대기열 정보를 카카오톡으로 제공합니다. 
+      - 약 20,000명의 사용자가 이용중인 Lostark wait notifier 는 게임<로스트아크>의 실시간 접속 대기열 정보를 카카오톡으로 제공합니다.
       - 원본 대기열 데이터를 스케줄러에서 크롤링하여 카카오톡 플러스친구를 통해 사용자의 메시지 요청시 데이터를 제공합니다.
   - experience:
     name: DMZ Hackathon
     role: Development
     period:
-      start: '2018.11'
-      end: '2018.11'
+      start: "2018.11"
+      end: "2018.11"
     description:
       - "Github : https://github.com/bbvch13531/PwP"
       - DMZ의 평화를 주제로 하는 Hackathon에서 Chrome Extension기반의 서비스 PwP를 개발했습니다.
@@ -161,8 +189,8 @@ experiences:
     name: Blog photo crawler
     role: Development
     period:
-      start: '2018.07'
-      end: '2018.07'
+      start: "2018.07"
+      end: "2018.07"
     description:
       - "Github : https://github.com/suitelab/blog-photo-crawler"
       - 블로그 주소를 입력시 게시물안에 있는 유의미한 이미지(네이버 블로그의 이모티콘 등 제외)들을 크롤링하여 폴더로 저장하는 기능을 제공합니다.
@@ -170,8 +198,8 @@ experiences:
     name: suite.lab
     role: Development
     period:
-      start: '2017.09'
-      end: 'now'
+      start: "2017.09"
+      end: "now"
     description:
       - "Service link : http://suitee.me"
       - suite.lab이라는 이름의 개인 기술 블로그를 운영하고 있습니다.
@@ -182,23 +210,23 @@ educations:
     name: 신한대학교
     major: 소프트웨어개발전공
     period:
-      start: '2010.03'
-      end: '2015.02'
-    description: 
+      start: "2010.03"
+      end: "2015.02"
+    description:
 
 licenses:
   - license:
     name: 컴퓨터활용능력 2 급
     role: 대한상공회의소
-    date: '2008.05'
-    description: 
+    date: "2008.05"
+    description:
   - license:
     name: 워드프로세서 1 급
     role: 한국산업인력공단
-    date: '2007.09'
-    description: 
+    date: "2007.09"
+    description:
   - license:
     name: 정보처리기능사
     role: 한국산업인력공단
-    date: '2006.08'
-    description: 
+    date: "2006.08"
+    description:
